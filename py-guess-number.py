@@ -27,3 +27,6 @@ def main():
             guess = True
         else:
             guess = False
+
+# call main function
+main()

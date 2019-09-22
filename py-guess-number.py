@@ -12,4 +12,6 @@ guess = True
 # keep playing game at user's request
 while guess:
     print('Guess the number I am thinking of: ')
+    print('Would you like to guess again? ')
+    
 

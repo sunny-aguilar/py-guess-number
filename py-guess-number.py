@@ -10,4 +10,6 @@ number = random.randint(1, 100)
 guess = True
 
 # keep playing game at user's request
+while guess:
+    print('Guess the number I am thinking of: ')
 

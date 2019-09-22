@@ -14,7 +14,7 @@ def main():
     # keep playing game at user's request
     while guess:
         my_guess = input('Enter the number I am thinking of: ')
-        if my_guess == number:
+        if int(my_guess) == number:
             print('Eureka! You guessed correct!')
         elif my_guess < number:
             print('Your guess was too low, try again.')

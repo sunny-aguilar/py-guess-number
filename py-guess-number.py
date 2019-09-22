@@ -26,11 +26,7 @@ def main():
             print('Your guess was too high, guess again.')
 
 
-        # guess = input('Would you like to guess again? (Y/N) ')
-        # if guess.upper == 'Y':
-        #     guess = True
-        # else:
-        #     guess = False
+ 
 
 
 # call main function

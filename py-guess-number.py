@@ -25,5 +25,5 @@ def main():
         elif my_guess > number:
             print('Your guess was too high, guess again.')
 
-# call main function
+# call main function to 
 main()

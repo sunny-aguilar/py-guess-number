@@ -11,7 +11,10 @@ guess = True
 
 # keep playing game at user's request
 while guess:
-    print('Guess the number I am thinking of: ')
+    my_guess = input('Enter the number I am thinking of: ')
+
+
+
     guess = input('Would you like to guess again? (Y/N) ')
     if guess.upper == 'Y':
         guess = True

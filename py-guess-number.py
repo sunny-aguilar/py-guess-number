@@ -12,7 +12,10 @@ guess = True
 # keep playing game at user's request
 while guess:
     my_guess = input('Enter the number I am thinking of: ')
-
+    if my_guess == number:
+        print('Eureka! You guessed correct!')
+    elif my_guess < number:
+        print()
 
 
     guess = input('Would you like to guess again? (Y/N) ')

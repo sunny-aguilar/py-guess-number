@@ -1,4 +1,4 @@
-# Guess the number game
+# Guess the number game using random module
 
 # import random module
 import random

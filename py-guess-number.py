@@ -3,8 +3,7 @@
 # import random module
 import random
 
-
-
+# main function
 def main():
     # create a random number
     number = random.randint(1, 100)

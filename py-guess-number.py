@@ -1,7 +1,7 @@
 # Guess the number game
 
+import random
 
-
-number = 44                 #have random number created instead
+number = random.randint(1, 100)                 #have random number created instead
 guess = True
 

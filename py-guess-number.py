@@ -9,5 +9,5 @@ number = random.randint(1, 100)
 # flag value
 guess = True
 
-
+# keep playing game at user's request
 

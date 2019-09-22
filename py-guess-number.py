@@ -8,7 +8,7 @@ def main():
     # create a random number to be guessed
     number = random.randint(1, 1000)
 
-    # flag value
+    # boolean flag
     guess = True
 
     # keep playing game at user's request

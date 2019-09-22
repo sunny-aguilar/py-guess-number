@@ -26,6 +26,5 @@ def main():
             print('Your guess was too high, guess again.')
 
 
-
 # call main function
 main()

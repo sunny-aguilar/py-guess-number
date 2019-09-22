@@ -6,7 +6,7 @@ import random
 # main function
 def main():
     # create a random number
-    number = random.randint(1, 100)
+    number = random.randint(1, 1000)
 
     # flag value
     guess = True
@@ -23,11 +23,11 @@ def main():
             print('Your guess was too high, guess again.')
 
 
-        guess = input('Would you like to guess again? (Y/N) ')
-        if guess.upper == 'Y':
-            guess = True
-        else:
-            guess = False
+        # guess = input('Would you like to guess again? (Y/N) ')
+        # if guess.upper == 'Y':
+        #     guess = True
+        # else:
+        #     guess = False
 
 
 # call main function

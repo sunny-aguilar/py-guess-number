@@ -5,7 +5,7 @@ import random
 
 # main function
 def main():
-    # create a random number
+    # create a random number to be guessed
     number = random.randint(1, 1000)
 
     # flag value

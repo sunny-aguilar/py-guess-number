@@ -16,6 +16,7 @@ def main():
         my_guess = int(input('Enter the number I am thinking of: '))
         if my_guess == number:
             print('Eureka! You guessed correct!')
+            guess = False
         elif my_guess < number:
             print('Your guess was too low, try again.')
         elif my_guess > number:

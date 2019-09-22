@@ -15,7 +15,7 @@ while guess:
     if my_guess == number:
         print('Eureka! You guessed correct!')
     elif my_guess < number:
-        print()
+        print('Your guess was too low, try again.')
 
 
     guess = input('Would you like to guess again? (Y/N) ')
